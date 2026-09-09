@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 int main()
 {
 	int number;
@@ -7,7 +7,7 @@ int main()
 	
 	
 	printf("%d,%d",count,sunmer);
-	printf("ÇëÊäÈëÊı×Ö:\n");
+	printf("è¯·è¾“å…¥æ•°å­—:\n");
 	scanf("%d",&number);
 	
 	
@@ -17,6 +17,6 @@ int main()
 		scanf("%d",&number);
 	}
 	
-	printf("Æ½¾ùÊıÎª%f",1.0*count/sunmer);
+	printf("å¹³å‡æ•°ä¸º%f",1.0*count/sunmer);
 	return 0;
 }

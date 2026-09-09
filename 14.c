@@ -1,9 +1,9 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main ()
 {
 	long long number;
     int n = 0;      
-	printf("ÇëÊäÈëÊı×Ö:\n");
+	printf("è¯·è¾“å…¥æ•°å­—:\n");
 	scanf("%lld",&number);
 	
 	

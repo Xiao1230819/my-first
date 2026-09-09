@@ -1,12 +1,12 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main()
 { float price1=0;
   float price2=0;
   
   
-  printf("ÇëÊäÈëÉÌÆ·¼Û¸ñ");
+  printf("è¯·è¾“å…¥å•†å“ä»·æ ¼");
   scanf("%f",&price1);
-  printf("ÇëÊäÈëÄãÖ§¸¶¶àÉÙÔª");
+  printf("è¯·è¾“å…¥ä½ æ”¯ä»˜å¤šå°‘å…ƒ");
   scanf("%f",&price2);
   
   

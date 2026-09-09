@@ -1,9 +1,9 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main()
 {
 	int number;
 	int n;
-	printf("ÇëÊäÈëÊı×Ö:\n");
+	printf("è¯·è¾“å…¥æ•°å­—:\n");
 	scanf("%lld",&number);
 	
 	
@@ -12,7 +12,7 @@ int main()
 		n++;
 	}
 	while(number>0);
-	printf("ÕâÊÇÒ»¸ö%lldÎ»Êı",n);
+	printf("è¿™æ˜¯ä¸€ä¸ª%lldä½æ•°",n);
 	
 	
 	return 0;

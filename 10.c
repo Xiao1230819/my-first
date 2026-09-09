@@ -1,17 +1,17 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main()
 {    int PASS=60;
     int num=0;
-    printf("ÇëÊäÈëÄãµÄ³É¼¨"); 
+    printf("è¯·è¾“å…¥ä½ çš„æˆç»©"); 
     scanf("%d",&num);
     
     
-    printf("ÄãÊäÈëµÄ³É¼¨ÊÇ%d\n",num);
+    printf("ä½ è¾“å…¥çš„æˆç»©æ˜¯%d\n",num);
     if(num>=PASS){
-    	printf("¹§Ï²Äã£¬³É¹¦¼°¸ñ\n");
+    	printf("æ­å–œä½ ï¼ŒæˆåŠŸåŠæ ¼\n");
 	}
 	else{
-		printf("ºÜ¿ÉÏ§£¬Õâ´ÎÄãÃ»ÓĞ¼°¸ñ\n");
+		printf("å¾ˆå¯æƒœï¼Œè¿™æ¬¡ä½ æ²¡æœ‰åŠæ ¼\n");
 	}
-    printf("ÔÙ¼û\n");
+    printf("å†è§\n");
     return 0;}

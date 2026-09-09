@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main ()
 {int hour1,minute1;
 int hour2,minute2;
@@ -13,12 +13,12 @@ int t=(hour2*60+minute2)-(hour1*60+minute1);
 
 
 if (t < 0) {
-        t = -t;  // È¡¾ø¶ÔÖµ£¬Ö»Ëã²î¶àÉÙ£¬²»¿¼ÂÇÏÈºó
+        t = -t;  // å–ç»å¯¹å€¼ï¼Œåªç®—å·®å¤šå°‘ï¼Œä¸è€ƒè™‘å…ˆå
     }
 
     ih = t / 60;
     im = t % 60;
-printf("Á½¸öÊ±¼äµÄÊ±¼ä²îÎª%dĞ¡Ê±%d·ÖÖÓ",ih,im);
+printf("ä¸¤ä¸ªæ—¶é—´çš„æ—¶é—´å·®ä¸º%då°æ—¶%dåˆ†é’Ÿ",ih,im);
 
 return 0;
 }

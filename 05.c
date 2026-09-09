@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{printf("这是一个时间差计程序\n");
+{printf("杩欐槸涓�涓椂闂村樊璁＄▼搴廫n");
 double hounr1=0;
 double hounr2=0;
 double hounr3=0;
@@ -17,4 +17,4 @@ printf("%d",num);
 
 return 0;
 
-}j
+}

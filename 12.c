@@ -1,24 +1,24 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main()
 {
 	int type;
-	printf("ÇëÊäÈëÒ»¸öÊı×Ö\n");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæ•°å­—\n");
 	scanf("%d",&type);
 	switch(type){
 		case 1:
-		printf("ÄãºÃ\n");
+		printf("ä½ å¥½\n");
 		break;
 		case 2:
-		printf("ÔçÉÏºÃ\n");
+		printf("æ—©ä¸Šå¥½\n");
 		break;
 		case 3:
-		printf("ÖĞÎçºÃ\n");
+		printf("ä¸­åˆå¥½\n");
 		break;
 		case 4:
-		printf("ÍíÉÏºÃ\n");
+		printf("æ™šä¸Šå¥½\n");
 		break;
 		default:
-			printf("ÇëÊäÈë1-4¼äµÄÈÎÒâÊı×Ö");
+			printf("è¯·è¾“å…¥1-4é—´çš„ä»»æ„æ•°å­—");
 			break;
 }
 	return 0;

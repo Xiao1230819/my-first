@@ -1,22 +1,22 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main()
 {    int a,b,c;
      int max=0;
-     printf("ÇëÊäÈëÈý¸öÊý×Ö½øÐÐ±È½Ï");
+     printf("è¯·è¾“å…¥ä¸‰ä¸ªæ•°å­—è¿›è¡Œæ¯”è¾ƒ");
      scanf("%d %d %d",&a,&b,&c);
 	 
 	 
 	 if(a>b){
 	 if(a>c)
-	 printf("×î´óµÄÊýÊÇ%d",a);
+	 printf("æœ€å¤§çš„æ•°æ˜¯%d",a);
 	 else
-	 printf("×î´óµÄÊýÊÇ%d",c);	
+	 printf("æœ€å¤§çš„æ•°æ˜¯%d",c);	
 	 }  
 	 else{
 	 	if(b>c)
-	 	printf("×î´óµÄÊýÊÇ%d",b);
+	 	printf("æœ€å¤§çš„æ•°æ˜¯%d",b);
 	 	else
-	 	printf("×î´óµÄÊýÊÇ%d",c);
+	 	printf("æœ€å¤§çš„æ•°æ˜¯%d",c);
 }
 	    return 0;
 }

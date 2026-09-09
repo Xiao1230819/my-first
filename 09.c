@@ -1,9 +1,9 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 int main()
 {
 	int a=0;
 	int b=0;
-	printf("��������������");
+	printf("请输入两个整数");
     scanf("%d %d",&a,&b);
     int max =0;
     
@@ -15,5 +15,5 @@ int main()
 	max=b;}
 	
 	
-	printf("��������%d\n",max);
+	printf("最大值是%d\n",max);
 	return 0;}

@@ -1,28 +1,28 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main()
 {
 	int grade;
-	printf("ÇëÊäÈë³É¼¨:\n");
+	printf("è¯·è¾“å…¥æˆç»©:\n");
 	scanf("%d",&grade);
-	printf("ÄãÊäÈëµÄ³É¼¨Îª%d\n",grade);
+	printf("ä½ è¾“å…¥çš„æˆç»©ä¸º%d\n",grade);
 	grade /=10;
 	
 	
 	switch(grade){
 		case 10:
-			printf("ÄãµÄ³É¼¨·Ç³£°ô");
+			printf("ä½ çš„æˆç»©éå¸¸æ£’");
 			break;
 		case 9:
-			printf("ÄãµÄ³É¼¨±È½Ï°ô");
+			printf("ä½ çš„æˆç»©æ¯”è¾ƒæ£’");
 			break;
 		case 8:
-			printf("ÄãµÄ³É¼¨ÓÅĞã");
+			printf("ä½ çš„æˆç»©ä¼˜ç§€");
 			break;
 		case 7:
-			printf("ÄãµÄ³É¼¨¼°¸ñ");
+			printf("ä½ çš„æˆç»©åŠæ ¼");
 			break;
 		case 6:
-			printf("ÄãµÄ³É¼¨²»ºÏ¸ñ");
+			printf("ä½ çš„æˆç»©ä¸åˆæ ¼");
 			break;	
 		
 }
