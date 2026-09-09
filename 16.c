@@ -6,7 +6,6 @@ int main()
 	int sunmer=0;
 	
 	
-	printf("%d,%d",count,sunmer);
 	printf("请输入数字:\n");
 	scanf("%d",&number);
 	
